@@ -1,0 +1,92 @@
+/* Background color for the entire dashboard in pastel shades */
+.user-dashboard-bg {
+  background-color: #f0e1f1;  /* Soft pastel pink */
+  background-image: linear-gradient(to right, #d3c0eb, #f5e3ff); /* Light pastel purple to light pastel pink gradient */
+  min-height: 100vh;
+  padding-bottom: 20px; /* Add space at the bottom */
+}
+
+/* Custom card styling */
+.custom-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+}
+
+.custom-btn {
+  font-size: 18px;
+  padding: 14px;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.custom-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar {
+  background-color: #a2c2e6 !important; /* Soft pastel blue for navbar */
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+/* Text and button enhancements */
+.card-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+/* Typography Adjustments */
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333;
+}
+
+/* Hover effect on links */
+.navbar-nav .nav-link:hover {
+  color: #f5e3ff;
+  font-weight: bold;
+}
+
+/* Custom shadow for the action buttons */
+.custom-btn {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-btn:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Style for the logout button */
+.navbar-nav .btn-link {
+  font-size: 1.1rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-nav .btn-link:hover {
+  color: #f5e3ff;
+}
